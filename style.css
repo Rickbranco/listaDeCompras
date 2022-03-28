@@ -58,3 +58,10 @@ input {
 .confirmButton:active {
   background: #4d944c;
 }
+
+.link {
+  padding: 10px;
+  font-weight: 300;
+  font-size: 24px;
+  color: white;
+}
