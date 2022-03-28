@@ -82,3 +82,8 @@ function exibirLista() {
 function limparContent() {
   document.getElementById("content").innerHTML = "";
 }
+
+var btn = document.querySelector("#refresh");
+btn.addEventListener("click", function () {
+  location.reload();
+});
