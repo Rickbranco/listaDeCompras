@@ -51,6 +51,7 @@ function addItem() {
 
   document.getElementById("item").value = "";
   document.getElementById("quantidade").value = "";
+  funcao1()
 }
 
 function exibirLista() {
