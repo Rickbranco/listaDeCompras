@@ -54,7 +54,7 @@ function addItem() {
 }
 
 function exibirLista() {
-  var htmlCode = "<h3>Lista de Compras:</h3>";
+  var htmlCode = "<h3>Lista de Compras Final:</h3>";
 
   var categoriasSelecionadas = [];
 
