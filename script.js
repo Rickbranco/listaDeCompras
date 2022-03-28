@@ -71,7 +71,7 @@ function exibirLista() {
     for (var j in lista) {
       if (lista[j].categoria == categoriasSelecionadas[i]) {
         htmlCode +=
-          "<li>" + lista[j].produto + ": " + lista[j].quantidade + "</li>";
+          "<li>" + lista[j].produto + "= " + lista[j].quantidade + "</li>";
       }
     }
   }
