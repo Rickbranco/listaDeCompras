@@ -51,7 +51,9 @@ function addItem() {
 
   document.getElementById("item").value = "";
   document.getElementById("quantidade").value = "";
-  funcao1()
+  const msg = `Você adicionou: ${quantidade} - ${produto} a sua lista!`;
+
+  alert(msg);
 }
 
 function exibirLista() {
