@@ -90,7 +90,7 @@ function exibirLista() {
     "</p>" +
     "<p>" +
     "</p>" +
-    "<a class='link' id='naTela' href='https://web.whatsapp.com/'>Whatsapp Web</a>";
+    "<a class='link' id='naTela' href='https://web.whatsapp.com/' target='_blank'>Whatsapp Web</a>";
 }
 
 function excluirElementoTela() {
@@ -148,7 +148,7 @@ function telaInicial() {
   htmlCode +=
     "<br><button class='normalButton' onclick='telaFinal()'>Finalizar</button>";
   htmlCode +=
-    "<a class='link' id='naTela' href='https://web.whatsapp.com/'>Whatsapp Web</a>";
+    "<a class='link' id='naTela' href='https://web.whatsapp.com/' target='_blank'>Whatsapp Web</a>";
   htmlCode += "<button id='refresh'>Recomeçar Lista</button>";
   htmlCode += "<div class='mensagem'>";
   htmlCode += "<p id='mensagem'></p>";
