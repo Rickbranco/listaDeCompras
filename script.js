@@ -157,6 +157,11 @@ function telaInicial() {
   document.getElementById("content").innerHTML = htmlCode;
 
   createSelectCategorias();
+  
+  var btn = document.querySelector("#refresh");
+btn.addEventListener("click", function () {
+  location.reload();
+});
 }
 
 function limparContent() {
